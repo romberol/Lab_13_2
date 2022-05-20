@@ -358,7 +358,7 @@ class LinkedBST(AbstractCollection):
 
             start = time.time()
             for word in random_words:
-                tree.find_in_alphabet_order(word)
+                self.find_in_alphabet_order(word)
             print("Random words search in tree:", time.time()-start)
 
             self.clear()
